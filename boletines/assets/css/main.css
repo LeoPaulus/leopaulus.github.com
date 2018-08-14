@@ -1,9 +1,53 @@
-p{
-  color:red;
+
+/*
+celeste clarito #299FE5
+celeste mas clarito #2EB1FF
+oscuro #0B2C40
+medio #17597F
+medio mas claro #2285BF
+*/
+html{
+  font-family: 'Arvo', serif;
+}
+a{
+  text-decoration: none;
+  color: #17597F;
+}
+.title{
+  text-transform: uppercase;
+}
+.container{
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  background-color: white;
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height:100%;
 }
 #botonsito{
   background-color: blue;
 }
 .subrayados{
   font-size:50px;margin-left:400px;margin-right:auto;
+}
+.table{
+  width: 100%;
+  border-spacing:0;
+}
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even){
+  background-color: #d9f9f7;
+}
+.fa-star{
+  color:#ffc400;
 }
